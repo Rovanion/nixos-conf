@@ -11,4 +11,6 @@
     mumble ];
 
   services.xserver.wacom.enable = true;
+
+  boot.loader.grub.useOSProber = true;
 }

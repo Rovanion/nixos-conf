@@ -1,17 +1,19 @@
 { config, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [
-    git ];
+  environment.systemPackages = with pkgs; [ git ];
 
-  i18n = {
-    consoleFont = "Lat2-Terminus16";
-    consoleKeyMap = "dvorak";
-    defaultLocale = "en_US.UTF-8";
-  };
+  i18n =
+    { consoleFont   = "Lat2-Terminus16";
+      consoleKeyMap = "dvorak";
+      defaultLocale = "en_US.UTF-8"; };
+
+  users.users.rovanion = 
+    { isNormalUser = true;
+      extraGroups  = ["wheel" "networkmanager"]; };
 
   security.sudo.enable = true;
   security.sudo.configFile = ''
-    rovanion ALL=(ALL) ALL
-  '';
+    %wheel ALL=(ALL) ALL
+    '';
 }

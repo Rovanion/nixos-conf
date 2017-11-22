@@ -7,7 +7,8 @@
     emacs
     gcc
     llvm
-    pavucontrol ];
+    pavucontrol
+    mumble ];
 
   services.xserver.wacom.enable = true;
 }

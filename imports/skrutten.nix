@@ -2,9 +2,7 @@
 
 
 {
-  imports = [
-    ./base.nix
-    ./desktop.nix ];
+  imports = [ ./desktop.nix ];
 
   time.timeZone = "Europe/Stockholm";
 

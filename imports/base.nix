@@ -1,7 +1,10 @@
 { config, pkgs, ... }:
 
 {
-  environment.systemPackages = with pkgs; [ git htop ];
+  environment.systemPackages = with pkgs; [
+    git
+    htop
+    screen ];
 
   i18n =
     { consoleFont   = "Lat2-Terminus16";

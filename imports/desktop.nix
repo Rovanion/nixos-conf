@@ -6,7 +6,6 @@
     ./development.nix ];
 
   environment.systemPackages = with pkgs; [
-    awesome
     sway
     way-cooler
     firefox
@@ -14,7 +13,12 @@
     pavucontrol
     mumble ];
 
+  services.xserver.enable = true;
+  services.xserver.windowManager.awesome.enable = true;
+  services.xserver.displayManager.lightdm.enable = true;
   services.xserver.wacom.enable = true;
+  services.xserver.layout = "se";
+  services.xserver.xkbVariant = "dvorak";
 
   boot.loader.grub.useOSProber = true;
 }

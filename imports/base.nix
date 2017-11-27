@@ -4,7 +4,8 @@
   environment.systemPackages = with pkgs; [
     git
     htop
-    screen ];
+    screen
+    mosh ];
 
   i18n =
     { consoleFont   = "Lat2-Terminus16";

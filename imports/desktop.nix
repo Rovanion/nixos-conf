@@ -26,5 +26,7 @@
   services.xserver.layout = "se";
   services.xserver.xkbVariant = "dvorak";
 
+  hardware.opengl.driSupport32Bit = true;
+
   boot.loader.grub.useOSProber = true;
 }

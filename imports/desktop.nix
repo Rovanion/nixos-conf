@@ -10,9 +10,14 @@
     way-cooler
     firefox
     emacs
+    rxvt_unicode
+    xfontsel
     pavucontrol
     mumble
     steam ];
+
+  fonts.fonts = with pkgs;
+  [ terminus_font ];
 
   services.xserver.enable = true;
   services.xserver.windowManager.awesome.enable = true;

@@ -14,7 +14,8 @@
     xfontsel
     pavucontrol
     mumble
-    steam ];
+    steam
+    bc ];
 
   fonts.fonts = with pkgs;
   [ terminus_font ];

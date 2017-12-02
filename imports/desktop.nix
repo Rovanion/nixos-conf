@@ -18,7 +18,8 @@
     bc
     imagemagick
     xfce.thunar
-    xfce.thunar_volman ];
+    xfce.thunar_volman
+    gpicview ];
 
   fonts.fonts = with pkgs;
   [ terminus_font ];

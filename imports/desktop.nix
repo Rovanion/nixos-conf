@@ -5,8 +5,8 @@
     ./base.nix
     ./development.nix ];
 
-  environment.systemPackages = with pkgs; [
-    sway
+  environment.systemPackages = with pkgs;
+  [ sway
     way-cooler
     firefox
     emacs
@@ -15,7 +15,10 @@
     pavucontrol
     mumble
     steam
-    bc ];
+    bc
+    imagemagick
+    xfce.thunar
+    xfce.thunar_volman ];
 
   fonts.fonts = with pkgs;
   [ terminus_font ];

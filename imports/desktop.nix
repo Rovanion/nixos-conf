@@ -20,7 +20,8 @@
     xfce.thunar
     xfce.thunar_volman
     gpicview
-    evince ];
+    evince
+    spotify ];
 
   fonts.fonts = with pkgs;
   [ terminus_font ];

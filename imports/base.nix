@@ -5,7 +5,8 @@
     git
     htop
     screen
-    mosh ];
+    mosh
+    lm_sensors ];
 
   i18n =
     { consoleFont   = "Lat2-Terminus16";

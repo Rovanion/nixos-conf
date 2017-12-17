@@ -5,5 +5,12 @@
     gcc
     gdb
     llvm
-    global ];
+    global
+    android-studio
+    androidsdk
+    zulu8 ];
+
+    users.extraUsers.alice.extraGroups = ["adbusers"];
 }
+
+

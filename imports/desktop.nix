@@ -21,7 +21,16 @@
     xfce.thunar_volman
     gpicview
     evince
-    spotify ];
+    spotify
+    xorg.xkbcomp
+    openssl
+    xarchiver
+    gnome3.defaultIconTheme
+    volumeicon
+    dropbox-cli
+    baobab
+    gparted
+    scrot ];
 
   fonts.fonts = with pkgs;
   [ terminus_font ];

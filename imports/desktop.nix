@@ -46,6 +46,8 @@
   services.xserver.xkbVariant = "dvorak";
 
   hardware.opengl.driSupport32Bit = true;
+  hardware.pulseaudio.enable = true;
+  hardware.pulseaudio.support32Bit = true;
 
   boot.loader.grub.useOSProber = true;
 }

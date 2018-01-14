@@ -30,7 +30,8 @@
     dropbox-cli
     baobab
     gparted
-    scrot ];
+    scrot
+    stress ];
 
   fonts.fonts = with pkgs; [ terminus_font ];
 

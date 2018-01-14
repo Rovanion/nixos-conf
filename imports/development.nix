@@ -10,7 +10,11 @@
     androidsdk
     zulu8 ];
 
-    users.extraUsers.alice.extraGroups = ["adbusers"];
+    virtualisation.docker.enable = true;
+
+    programs.adb.enable = true;
+
+    users.users.rovanion.extraGroups = ["adbusers" "docker"];
 }
 
 

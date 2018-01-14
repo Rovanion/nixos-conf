@@ -17,7 +17,7 @@
 
   users.users.rovanion = 
     { isNormalUser = true;
-      extraGroups  = ["wheel" "networkmanager"]; };
+      extraGroups  = ["wheel"]; };
 
   security.sudo.enable = true;
   security.sudo.configFile = ''

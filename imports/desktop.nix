@@ -32,8 +32,10 @@
     gparted
     scrot ];
 
-  fonts.fonts = with pkgs;
-  [ terminus_font ];
+  fonts.fonts = with pkgs; [ terminus_font ];
+
+  networking.networkmanager.enable = true;
+  users.users.rovanion.extraGroups = [ "networkmanager" ];
 
   services.xserver.enable = true;
   services.xserver.windowManager.awesome.enable = true;

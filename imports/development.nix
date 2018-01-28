@@ -9,7 +9,10 @@
     global
     # android-studio
     # androidsdk
-    zulu8 ];
+    zulu8               # Alternative JVM.
+    dfu-programmer      # For the Ergodox AVR.
+    avrgcc              # Ditto.
+    ];
 
     virtualisation.docker.enable = true;
 

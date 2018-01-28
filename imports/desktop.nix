@@ -1,14 +1,12 @@
 { config, pkgs, ... }:
 
 {
-  imports = [ 
+  imports = [
     ./base.nix
     ./development.nix ];
 
   environment.systemPackages = with pkgs;
-  [ sway
-    way-cooler
-    firefox
+  [ firefox
     emacs
     rxvt_unicode
     xfontsel
@@ -31,7 +29,13 @@
     baobab
     gparted
     scrot
-    stress ];
+    stress
+    geekbench
+    gimp
+    teamviewer
+    chromium ];
+
+  services.teamviewer.enable = true;
 
   fonts.fonts = with pkgs; [ terminus_font ];
 

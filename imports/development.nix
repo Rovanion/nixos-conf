@@ -5,9 +5,10 @@
     gcc
     gdb
     llvm
+    gnumake
     global
-    android-studio
-    androidsdk
+    # android-studio
+    # androidsdk
     zulu8 ];
 
     virtualisation.docker.enable = true;
@@ -16,5 +17,3 @@
 
     users.users.rovanion.extraGroups = ["adbusers" "docker"];
 }
-
-

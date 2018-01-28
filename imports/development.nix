@@ -1,6 +1,8 @@
 { config, pkgs, ... }:
 
 {
+  imports = [ ./base.nix ];
+
   environment.systemPackages = with pkgs; [
     gcc
     gdb

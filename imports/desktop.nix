@@ -1,9 +1,7 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    ./base.nix
-    ./development.nix ];
+  imports = [ ./base.nix ];
 
   environment.systemPackages = with pkgs;
   [ firefox

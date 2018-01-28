@@ -8,7 +8,8 @@
       mosh
       lm_sensors
       ncdu
-      bind ];
+      bind
+      file ];
 
   i18n =
     { consoleFont   = "Lat2-Terminus16";

@@ -12,8 +12,11 @@
     android-studio
     #androidsdk
     zulu8               # Alternative JVM.
-    dfu-programmer      # For the Ergodox AVR.
-    avrgcc              # Ditto.
+    dfu-programmer      ###
+    avrgcc              # For the AVR development, the
+    avrbinutils         # Ergodox EZ specifically.
+    avrlibc             ###
+    dos2unix
     ];
 
     virtualisation.docker.enable = true;

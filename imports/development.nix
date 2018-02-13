@@ -9,8 +9,8 @@
     llvm
     gnumake
     global
-    # android-studio
-    # androidsdk
+    android-studio
+    #androidsdk
     zulu8               # Alternative JVM.
     dfu-programmer      # For the Ergodox AVR.
     avrgcc              # Ditto.

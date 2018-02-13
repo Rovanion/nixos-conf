@@ -6,7 +6,8 @@
   environment.systemPackages = with pkgs;
   [ firefox
     emacs
-    rxvt_unicode
+    rxvt_unicode-with-plugins
+    urxvt_perls
     xfontsel
     pavucontrol
     mumble

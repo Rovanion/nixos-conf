@@ -34,7 +34,8 @@
     gimp
     teamviewer
     chromium
-    libreoffice];
+    libreoffice
+    redshift ];
 
   services.teamviewer.enable = true;
 

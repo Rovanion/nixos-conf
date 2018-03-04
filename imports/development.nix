@@ -17,6 +17,7 @@
     avrbinutils         # Ergodox EZ specifically.
     avrlibc             ###
     dos2unix
+    nodejs-8_x
     ];
 
     virtualisation.docker.enable = true;

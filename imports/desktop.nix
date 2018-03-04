@@ -22,6 +22,7 @@
     xorg.xkbcomp
     openssl
     xarchiver
+    gzip
     gnome3.defaultIconTheme
     volumeicon
     dropbox-cli
@@ -32,7 +33,8 @@
     geekbench
     gimp
     teamviewer
-    chromium ];
+    chromium
+    libreoffice];
 
   services.teamviewer.enable = true;
 

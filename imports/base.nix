@@ -10,7 +10,8 @@
       ncdu
       bind
       file
-      mtr ];
+      mtr
+      wget ];
 
   i18n =
     { consoleFont   = "Lat2-Terminus16";

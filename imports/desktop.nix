@@ -32,12 +32,14 @@
     stress
     geekbench
     gimp
-    teamviewer
+    # teamviewer
     chromium
     libreoffice
-    redshift ];
+    redshift
+    poppler_utils
+    file-roller ];
 
-  services.teamviewer.enable = true;
+  # services.teamviewer.enable = true;
 
   fonts.fonts = with pkgs; [ terminus_font ];
 

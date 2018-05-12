@@ -9,8 +9,8 @@
     llvm
     gnumake
     global
-    android-studio
-    #androidsdk
+    # android-studio
+    # androidsdk
     zulu8               # Alternative JVM.
     dfu-programmer      ###
     avrgcc              # For the AVR development, the
@@ -18,6 +18,7 @@
     avrlibc             ###
     dos2unix
     nodejs-8_x
+    # rustup
     ];
 
     virtualisation.docker.enable = true;

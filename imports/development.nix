@@ -12,10 +12,6 @@
     # android-studio
     # androidsdk
     zulu8               # Alternative JVM.
-    dfu-programmer      ###
-    avrgcc              # For the AVR development, the
-    avrbinutils         # Ergodox EZ specifically.
-    avrlibc             ###
     dos2unix
     nodejs-8_x
     # rustup

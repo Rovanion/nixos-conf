@@ -37,7 +37,8 @@
     libreoffice
     redshift
     poppler_utils
-    file-roller ];
+    gnome3.file-roller
+    keepassx-community ];
 
   # services.teamviewer.enable = true;
 
